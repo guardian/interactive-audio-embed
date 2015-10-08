@@ -24,7 +24,7 @@ function mediaPlayer(el, url){
 
 
 
-		el.addEventListener('click', function(){
+		el.querySelector('.gv-audio-player').addEventListener('click', function(){
 			isReady();
 			if(!player.paused){
 				pause();
