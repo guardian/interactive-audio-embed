@@ -1,5 +1,5 @@
 .gv-player-container {
-	background: colour('news-support-7');
+	background: colour('news-support-6');
 	width: 100%;
 	float: left;
 	-webkit-box-sizing: border-box;
@@ -66,4 +66,20 @@
 
 .audio-progress-circle {
 	fill: colour('multimedia-main-2');
+}
+
+.article {
+
+		.gv-player-container {
+			margin-bottom: 20px;
+		}
+	
+	    .gv-player-container p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: Guardian Text Egyptian Web,Georgia,serif;
+            padding-top: 20px;
+        }
+
 }
